@@ -85,8 +85,8 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 - Go to this repo and copy the project link
-        https://github.com/Gdiazdiaz/Math-magician-react
-- Open your terminal and clone the repo with this command "git clone https://github.com/Gdiazdiaz/Math-magician-react.git"
+        https://github.com/Gdiazdiaz/react-todo-app
+- Open your terminal and clone the repo with this command "git clone https://github.com/Gdiazdiaz/react-todo-app.git"
 - Now, you have a copy on your pc. 
 
 
