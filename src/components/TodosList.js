@@ -1,16 +1,18 @@
-import React from "react"
-import TodoItem from "./TodoItem"
+/* eslint-disable react/prefer-stateless-function */
+import React from 'react';
+import TodoItem from './TodoItem';
 
 class TodosList extends React.Component {
   render() {
+    const { todos } = this.state;
     return (
       <ul>
-        {this.props.todos.map(todo => (
-          <TodoItem key={todo.id} todo={todo} />
+        {todos.map((todos) => (
+          <TodoItem key={todos.id} todos={todos} />
         ))}
       </ul>
-    )
+    );
   }
 }
 
-export default TodosList
+export default TodosList;
